@@ -1,3 +1,53 @@
-twitter_keys.json,
-keys.py,
+# --------------------
+# 1. API KEYS & SECRETS
+# --------------------
+# Specific files containing your X API tokens and passwords
+twitter_keys.json
+keys.py
 password.json
+
+# General secrets files
+*.env
+.env
+.secret
+.secrets
+
+# --------------------
+# 2. Python Environment & Compilation
+# --------------------
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+lib/
+include/
+bin/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.cache
+.pytest_cache/
+
+# --------------------
+# 3. Data & Artifacts
+# --------------------
+# Database files
+*.sqlite3
+*.db
+
+# Data files created during runtime or analysis
+*.csv
+*.xls
+*.xlsx
+*.pkl
+*.parquet
+
+# Logs and debugging
+*.log
